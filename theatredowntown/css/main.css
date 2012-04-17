@@ -1,4 +1,6 @@
 body {
+ background-image: url("../images/background.jpg");
+ background-attachment: fixed;
  width: 960px;
  font-family: arial;
  text-align: center;

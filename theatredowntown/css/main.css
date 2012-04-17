@@ -1,7 +1,11 @@
 body {
+ background-image: url("../images/background.jpg");
+ background-attachment: fixed;
  width: 960px;
  font-family: arial;
  text-align: center;
+ margin: 0 auto;
+ border: 2px solid #000;
 }
 
 p {

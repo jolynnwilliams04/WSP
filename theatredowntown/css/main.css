@@ -44,6 +44,15 @@ h4 {
  color: white;
 }
 
+h5 {
+ background: #f78ed4;
+ padding: 10px;
+ font-family: arial;
+ font-weight: normal;
+ text-align: center;
+ border: 2px solid #000;
+}
+
 nav {
  background: #c362d8;
  text-align: center;
@@ -57,12 +66,11 @@ nav {
 } 
 
 footer {
-background: #f78ed4;
-text-align: center;
-font-size: 12px;
-margin: 0 auto;
-line-height: 2.5;
-clear: both;
+ background: #f78ed4;
+ text-align: center;
+ font-size: 12px;
+ line-height: 2.5;
+ clear: both;
 }
 
 #logo {
@@ -97,7 +105,7 @@ clear: both;
  background-color: white;
  border: 2px solid #333;
  border-radius: 10px;
- width: 300px;
+ width: 325px;
  font-size: 13px;
  text-align: center;
  float: right;
@@ -178,7 +186,6 @@ clear: both;
 #rewards {
 text-align: left;
 color: black;
-
 }
 
 #contribute {
@@ -204,6 +211,10 @@ a:link {
 
 a:visited {
  color:white;
+}
+
+a:hover {
+ color: black;
 }
 
 a:active {

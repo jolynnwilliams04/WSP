@@ -197,17 +197,18 @@ footer {
 } 
  
 #rewards {
-text-align: left;
-color: black;
+ text-align: left;
+ color: black; 
 }
 
 #rewards2 {
-text-align: right;
-color: black;
+ text-align: right;
+ color: black;
+
 }
 
 #contribute {
-text-align: left;
+ text-align: left;
 }
 
 #service {
@@ -216,7 +217,7 @@ text-align: left;
  font-size: 16px;
  margin: 0 auto;
  padding: 25px;
- float: left;
+ float: right;
 }
 
 #service2 {
@@ -225,11 +226,10 @@ text-align: left;
  font-size: 16px;
  margin: 0 auto;
  padding: 25px;
- float: right;
+ float: left;
 }
 
-#read {
-background: none repeat scroll 0 0 #86ABEE;
+article {
  color: black;
  font-size: 16px;
  margin: 0 auto;
@@ -239,6 +239,10 @@ background: none repeat scroll 0 0 #86ABEE;
 ul {
  list-style: circle;
  font-weight: bold;
+}
+
+img {
+ margin: 0 auto;
 }
 
 a:link {

@@ -9,6 +9,11 @@ body {
 
 p {
  color: black;
+ font-family: Arial;
+}
+
+p.title {
+ font-weight: bold;
 }
 
 header {
@@ -20,7 +25,9 @@ header {
 h1 {
  text-align: center;
  font-size: 60px;
- font-family: 'Happy Monkey', cursive;
+ line-height: 1.5;
+ font-family: Handwriting-Dakota;
+ font-weight: bold;
  color: #000;
 }
 
@@ -31,7 +38,7 @@ h2 {
 }
 
 h3 {
- font: arial;
+ font: Arial;
  font-size: 16px;
  text-align: right;
 }
@@ -39,8 +46,8 @@ h3 {
 h4 {
  background: #c362d8;
  font-size: 16px;
- font-weight: bold;
- font-family: 'Happy Monkey', cursive;
+ font-family: Handwriting-Dakota;
+ text-align: center;
  line-height: 2;
  border: 2px solid #333;
  width: 325px;
@@ -50,17 +57,19 @@ h4 {
 h5 {
  background: #f78ed4;
  padding: 10px;
- font-family: arial;
+ font-family: Arial;
  font-weight: normal;
+ border-radius: 5px;
  text-align: center;
  border: 2px solid #000;
+ clear: both;
 }
 
 nav {
  background: #c362d8;
  text-align: center;
  margin: 0 auto;
- font-family: 'Happy Monkey', cursive;
+ font-family: Handwriting-Dakota;
  padding: 5px;
  line-height: 1.5;
  list-style-type: none;
@@ -69,15 +78,20 @@ nav {
 } 
 
 footer {
- background: #f78ed4;
+ background: #c362d8;
  text-align: center;
  font-size: 12px;
- line-height: 2.5;
+ line-height: 1.5;
  clear: both;
+ color: white;
 }
 
 #logo {
  float:right;
+}
+
+#facebook {
+ float: right;
 }
 
 #services_container {
@@ -86,12 +100,13 @@ footer {
 }
 
 #playing {
- background: #86abee;
- padding: 35px;
- margin: 0 auto;
- font-size: 16px;
- color: black;
+ background: none repeat scroll 0 0 #86ABEE;
  clear: both;
+ color: black;
+ font-size: 16px;
+ margin: 0 auto;
+ overflow: hidden;
+ padding: 35px;
 }
 
 #wrapper {
@@ -123,6 +138,19 @@ footer {
  font-size: 13px;
  text-align: left;
  line-height: 1.5;
+ float: right;
+}
+
+#wrapper4 {
+ background-color: white;
+ border: 2px solid #333; 
+ border-radius: 10px;
+ width: 300px;
+ padding: 5px;
+ font-size: 13px;
+ text-align: left;
+ line-height: 1.5;
+ float: left;
 }
 
 #title_wrapper {
@@ -147,9 +175,13 @@ footer {
  }
  
 #shows {
- background: #86abee;
- font-size: 16px;
+ background: none repeat scroll 0 0 #86ABEE;
+ clear: both;
  color: black;
+ font-size: 16px;
+ margin: 0 auto;
+ overflow: hidden;
+ padding: 35px;
  -moz-column-count: 3;
  -webkit-column-count: 3;
 }
@@ -187,25 +219,33 @@ footer {
 } 
  
 #rewards {
-text-align: left;
-color: black;
+ background: none repeat scroll 0 0 #86ABEE;
+ font-size: 13px;
+ text-align: center;
+ float: left;
 }
 
-#contribute {
-text-align: left;
-}
-
-#service {
- background: #86abee;
- padding: 35px;
- margin: 0 auto;
- font-size: 16px;
+#rewards2 {
+ background: none repeat scroll 0 0 #86ABEE;
+ font-size: 13px;
+ text-align: center;
+ float: right;
+} 
+ 
+article {
  color: black;
- clear: both;
+ font-size: 16px;
+ margin: 0 auto;
+ padding: 25px;
 }
 
 ul {
  list-style: circle;
+ font-weight: bold;
+}
+
+img {
+ margin: 0 auto;
 }
 
 a:link {

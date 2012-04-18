@@ -9,6 +9,11 @@ body {
 
 p {
  color: black;
+ font-family: Arial;
+}
+
+p.title {
+ font-weight: bold;
 }
 
 header {
@@ -42,6 +47,7 @@ h4 {
  background: #c362d8;
  font-size: 16px;
  font-family: Handwriting-Dakota;
+ text-align: center;
  line-height: 2;
  border: 2px solid #333;
  width: 325px;
@@ -53,8 +59,10 @@ h5 {
  padding: 10px;
  font-family: Arial;
  font-weight: normal;
+ border-radius: 5px;
  text-align: center;
  border: 2px solid #000;
+ clear: both;
 }
 
 nav {
@@ -70,11 +78,12 @@ nav {
 } 
 
 footer {
- background: #f78ed4;
+ background: #c362d8;
  text-align: center;
  font-size: 12px;
- line-height: 2.5;
+ line-height: 1.5;
  clear: both;
+ color: white;
 }
 
 #logo {
@@ -129,6 +138,19 @@ footer {
  font-size: 13px;
  text-align: left;
  line-height: 1.5;
+ float: right;
+}
+
+#wrapper4 {
+ background-color: white;
+ border: 2px solid #333; 
+ border-radius: 10px;
+ width: 300px;
+ padding: 5px;
+ font-size: 13px;
+ text-align: left;
+ line-height: 1.5;
+ float: left;
 }
 
 #title_wrapper {
@@ -197,38 +219,19 @@ footer {
 } 
  
 #rewards {
- text-align: left;
- color: black; 
-}
-
-#rewards2 {
- text-align: right;
- color: black;
-
-}
-
-#contribute {
- text-align: left;
-}
-
-#service {
  background: none repeat scroll 0 0 #86ABEE;
- color: black;
- font-size: 16px;
- margin: 0 auto;
- padding: 25px;
- float: right;
-}
-
-#service2 {
- background: none repeat scroll 0 0 #86ABEE;
- color: black;
- font-size: 16px;
- margin: 0 auto;
- padding: 25px;
+ font-size: 13px;
+ text-align: center;
  float: left;
 }
 
+#rewards2 {
+ background: none repeat scroll 0 0 #86ABEE;
+ font-size: 13px;
+ text-align: center;
+ float: right;
+} 
+ 
 article {
  color: black;
  font-size: 16px;

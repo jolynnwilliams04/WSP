@@ -109,6 +109,17 @@ footer {
  padding: 35px;
 }
 
+#about {
+ background: none repeat scroll 0 0 #86ABEE;
+ clear: both;
+ color: black;
+ font-size: 14px;
+ margin: 0 auto;
+ overflow: hidden;
+ padding: 35px;
+ text-align: left;
+}
+
 #wrapper {
  background-color: white;
  border: 2px solid #333; 

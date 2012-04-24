@@ -65,6 +65,19 @@ h5 {
  clear: both;
 }
 
+h6 {
+ background: #f78ed4;
+ font-size: 20px;
+ font-family: Handwriting-Dakota;
+ font-weight: normal;
+ text-align: center;
+ line-height: 1;
+ margin: 0 auto;
+ border: 2px solid #000;
+ border-radius: 8px;
+ padding: 10px;
+ width: 300px;
+}
 nav {
  background: #c362d8;
  text-align: center;
@@ -142,6 +155,26 @@ footer {
  background: none repeat scroll 0 0 #86ABEE;
  clear: both;
  padding: 10px;
+}
+
+#inside {
+ background: none repeat scroll 0 0 #86ABEE;
+ color: black;
+ font-size: 16px;
+ margin: 0 auto;
+ text-align: center;
+ padding: 35px;
+}
+
+#mailing {
+ background: none repeat scroll 0 0 #86ABEE;
+ clear: both;
+ color: black;
+ font-size: 14px;
+ margin: 0 auto;
+ overflow: hidden;
+ padding: 35px;
+ text-align: center;
 }
 
 #wrapper {
@@ -274,6 +307,11 @@ article {
  font-size: 16px;
  margin: 0 auto;
  padding: 25px;
+}
+
+form {
+ text-align: center;
+ font-size: 14px;
 }
 
 ul {

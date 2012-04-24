@@ -120,6 +120,15 @@ footer {
  text-align: left;
 }
 
+#place {
+ background: none repeat scroll 0 0 #86ABEE;
+ color: black;
+ font-size: 14px;
+ margin: 0 auto;
+ padding: 35px;
+ text-align: left;
+}
+
 #wrapper {
  background-color: white;
  border: 2px solid #333; 

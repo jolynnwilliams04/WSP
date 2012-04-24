@@ -324,19 +324,19 @@ img {
 }
 
 a:link {
- color: white;
+ color: black;
 }
 
 a:visited {
- color:white;
+ color:black;
 }
 
 a:hover {
- color: black;
+ color: white;
 }
 
 a:active {
- color: black;
+ color: white;
 }
 
 a {

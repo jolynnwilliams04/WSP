@@ -129,6 +129,15 @@ footer {
  text-align: left;
 }
 
+#info {
+ background: none repeat scroll 0 0 #86ABEE;
+ color: black;
+ font-size: 13px;
+ margin: 0 auto;
+ text-align: left;
+ padding: 35px;
+}
+
 #wrapper {
  background-color: white;
  border: 2px solid #333; 
